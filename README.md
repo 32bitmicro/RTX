@@ -5,6 +5,8 @@ Version V4.61
 
 [License](https://github.com/32bitmicro/RTX/blob/master/License.txt)
 
+[Documentation](https://rawgithub.com/32bitmicro/RTX/master/Doc/index.html)
+
 [ARM Documentation](http://www.arm.com/products/tools/software-tools/mdk-arm/middleware-libraries/rtx-real-time-operating-system.php)
 
 Suppported Cores

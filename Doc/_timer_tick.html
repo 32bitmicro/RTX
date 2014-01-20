@@ -30,7 +30,7 @@
   <td id="projectlogo"><img alt="Logo" src="CMSIS_Logo_Final.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">CMSIS-RTOS RTX
-   &#160;<span id="projectnumber">Version 4.51</span>
+   &#160;<span id="projectnumber">Version 4.61</span>
    </div>
    <div id="projectbrief">CMSIS-RTOS RTX: Real-Time Operating System for Cortex-M processor-based devices</div>
   </td>
@@ -125,6 +125,7 @@ Usage of an alternative timer as RTX kernel timer.</h1>
 <li><b>void os_tick_irqack (void)</b> is an interrupt acknowledge function that is called to confirm the alternative hardware timer interrupt.</li>
 <li><b>OS_Tick_Handler</b> needs to be called as the hardware timer interrupt function; the startup code should be modified to this function.</li>
 </ul>
+
 <p><b>Configuration Code:</b> </p>
 <div class="fragment"><div class="line"><span class="comment">/*--------------------------- os_tick_init ----------------------------------*/</span></div>
 <div class="line"><span class="keywordtype">int</span> os_tick_init (<span class="keywordtype">void</span>) {</div>
